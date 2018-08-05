@@ -2,6 +2,7 @@
     "compilerOptions": {
         "target": "es2017",
         "module": "esnext",
+        "moduleResolution": "node",
         "sourceMap": true,
         // "watch": true,
         "pretty": true,
