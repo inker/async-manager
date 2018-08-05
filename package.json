@@ -1,13 +1,13 @@
 {
   "name": "async-manager",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "TODO",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf lib && tsc",
-    "build-publish": "sh build/publish.sh"
+    "build-publish": "sh scripts/publish.sh"
   },
   "repository": {
     "type": "git",

@@ -9,7 +9,7 @@
         "declaration": true,
         "alwaysStrict": true,
         "strictNullChecks": true,
-        "outDir": "lib"
+        "outDir": "build"
     },
     "exclude": [ "node_modules", "test" ]
 }
